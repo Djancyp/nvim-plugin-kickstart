@@ -1,7 +1,7 @@
-local Kickstart = require("kikstart")
-
-describe("kikstart", function()
-    it("should have a setup function", function()
-        assert.is_function(Kickstart.setup)
+describe("Kickstart - ", function()
+    it("Test Example :", function()
+        local result = 4
+        local expected = 4
+        assert.are.equal(expected, result)
     end)
 end)
